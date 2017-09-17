@@ -50,7 +50,7 @@ unsigned int cur_cpu;
 #define DEF_SAMPLING_DOWN_FACTOR		(4)
 #define MAX_SAMPLING_DOWN_FACTOR		(100000)
 #define MICRO_FREQUENCY_MIN_SAMPLE_RATE		(10000)
-#define DEF_BOOST_PULSE_DURATION        (80000)
+#define DEF_BOOST_PULSE_DURATION        (70000)
 #define DEF_GO_HISPEED_LOAD         (95)
 #define DEF_HISPEED_FREQ            (960000)
 #define DEF_UP_THRESHOLD		    (40)
