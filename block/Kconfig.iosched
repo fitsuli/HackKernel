@@ -34,7 +34,7 @@ config IOSCHED_CFQ
 
 config IOSCHED_MAPLE
 	tristate "Maple I/O scheduler"
-	default n
+	default y
 
 config CFQ_GROUP_IOSCHED
 	bool "CFQ Group Scheduling support"
