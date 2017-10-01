@@ -15,7 +15,7 @@ NAME = TOSSUG Baby Fish
 #    (this increases performance and avoids hard-to-debug behaviour);
 # o  print "Entering directory ...";
 MAKEFLAGS += -rR --no-print-directory
-
+export ARCH=arm64
 export TARGET_PRODUCT=hi6210sft
 export BALONG_TOPDIR:=$(CURDIR)/../vendor/hisi
 export KERNEL_ARM_TYPE:=arm64
